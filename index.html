@@ -57,6 +57,12 @@ img{
     background-color: #4CAF50;
     color: white;
 }
+.grid {
+  display: flex; 
+  flex-basis: calc(50% - 40px);  
+  justify-content: center;
+  flex-direction: column;
+}
 
 @media (max-width: 800px) {
 	img{
@@ -77,15 +83,13 @@ img{
   <div class="header-img"></div>
 </div>
 <main>
-  <div>
-    <img width="640px" display="block" float="right" src="https://tom.imgix.net/staging/arrowhead/after/IMG_0794.jpg?auto=format,enhance,compress&cs=srgb&q=70">
-<h1>Furniture Today Home Staging</h1>
-<h2>Full Service Staging, affordable for any budget</h2>
-</div>
-<div>
-    <img width="640px" display="block" float="left" src="https://tom.imgix.net/staging/arreba/after/IMG_8778.jpg?auto=format,enhance,compress&cs=srgb&q=70&w=640">
-<h1>Well Stocked Inventory</h1>
-<h2>Available for Quick Installation</h2>
-</div>
+  <div class="grid">
+    <div><img width="640px" display="block" float="right" src="https://tom.imgix.net/staging/arrowhead/after/IMG_0794.jpg?auto=format,enhance,compress&cs=srgb&q=70"></div>
+    <div><h1>Furniture Today Home Staging</h1>
+    <h2>Full Service Staging, affordable for any budget</h2></div>
+    <div><img width="640px" display="block" float="left" src="https://tom.imgix.net/staging/arreba/after/IMG_8778.jpg?auto=format,enhance,compress&cs=srgb&q=70&w=640"></div>
+    <div><h1>Well Stocked Inventory</h1>
+    <h2>Available for Quick Installation</h2></div>
+  </div>
 </main>
 </body></html>
