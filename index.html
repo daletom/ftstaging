@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en"><head>
 <meta name="description" content="Furniture Today Home Staging provides staging for vacant homes in Contra Costa and Alameda County in the East Bay.  We work with both Real Estate agents and home owners to stage their homes before an open house. Great selection of sofas, tables, and beds to be included in your staging."> 
-<meta property="og:image" content="https://tom.imgix.net/staging/arreba/after/IMG_8778.jpg?fit=crop&h=630&w=1200&q=70&cs=srgb&auto=format%2Cenhance%2Ccompress&txt64=RnVybml0dXJlIFRvZGF5IFN0YWdpbmc&txt-color=5b5b5b&txt-size=60&mark64=aHR0cDovL3RvbS5pbWdpeC5uZXQvMXgxX21vdGlmLnBuZz9iZz13aGl0ZSZ3PTEyMDAmaD03MCZmaXQ9Y3JvcA&mark-pad=0&txt-align=bottom%2Ccenter&txt-pad=15">
+<meta property="og:image" content="https://tom.imgix.net/staging/arreba/after/IMG_8778.jpg?fit=crop&h=630&w=1200&q=70&cs=srgb&auto=format%2Cenhance%2Ccompress&txt64=RnVybml0dXJlIFRvZGF5IEhvbWUgU3RhZ2luZw&txt-color=5b5b5b&txt-size=60&mark64=aHR0cHM6Ly90b20uaW1naXgubmV0LzF4MV9tb3RpZi5wbmc_Zml0PWNyb3AmaD03MCZ3PTEyMDAmYmc9d2hpdGU&mark-pad=0&txt-align=bottom%2Ccenter&txt-pad=15">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Furniture Today Home Staging</title>
@@ -190,6 +190,49 @@ h4 {
     background-color: #fff;
     overflow: hidden;
 }
+.rounded-social-buttons .social-button {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  width: 3.125rem;
+  height: 3.125rem;
+  border: 0.125rem solid transparent;
+  padding: 0;
+  text-decoration: none;
+  text-align: center;
+  color: #fefefe;
+  font-size: 1.5625rem;
+  font-weight: normal;
+  line-height: 2em;
+  border-radius: 1.6875rem;
+  transition: all 0.5s ease;
+  margin-right: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+.svg-inline--fa {
+  vertical-align: -0.200em;
+}
+
+.rounded-social-buttons {
+  text-align: center;
+}
+.rounded-social-buttons .social-button:hover, .rounded-social-buttons .social-button:focus {
+  -webkit-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+.rounded-social-buttons .fa-twitter, .fa-facebook-f, .fa-linkedin, .fa-youtube, .fa-instagram {
+  font-size: 25px;
+}
+.rounded-social-buttons .social-button.facebook {
+  background: #3b5998;
+}
+
+.rounded-social-buttons .social-button.facebook:hover, .rounded-social-buttons .social-button.facebook:focus {
+  color: #3b5998;
+  background: #fefefe;
+  border-color: #3b5998;
+}
 .header-img {
     background: url(https://tom.imgix.net/staging/ftstaging_logo_straigh.png?w=270&h=135&auto=format) right top no-repeat;
     height: 135px;
@@ -267,9 +310,9 @@ button {
   </div>
 </main>
 <footer>
-  <div class="footnav">
+  <div class="footnav rounded-social-buttons">
     <button onclick="window.location.href = 'https://ftcontactus.netlify.com';">Contact Us</button>
-    <h3>Furniture Today Home Staging</h3>
+    <h3>Furniture Today Home Staging<a class="social-button facebook" href="https://www.facebook.com/FurnitureTodayConcord/" target="_blank"><i class="fab fa-facebook-f"></i></a></h3>
     <h4>1950A Market Street<br>Concord, CA 94520<br>Bus: (925) 680-1133 Cell: (925) 300-7884</h4>
   </div>
 </footer>
